@@ -1,0 +1,57 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>你今天喝水了吗？</title>
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div id="app">
+    <nav>
+      <div class="setting-nav flex flex-right" v-if="!nav"><i class="icon el-icon-setting" @click="nav=1"></i></div>
+      <div class="back-nav flex flex-space-between" v-else><i class="icon el-icon-arrow-left" @click="nav=0"></i>设置<i
+          class="icon el-icon-circle-check" @click="save"></i></div>
+    </nav>
+    <section class="content p10">
+      <div class="info" v-if="!nav">
+        <div class="statistics">
+          <el-tag><span>全部提醒</span><div>{{all}}</div></el-tag>
+          <el-tag><span>待提醒</span><div>{{todo}}</div></el-tag>
+        </div>
+        <div class="percentage-box">
+          <el-progress :percentage="percentage" :stroke-width="20" :text-inside="true" :color="customColorMethod"></el-progress>
+        </div>
+        <el-button class="add-btn" size="mini" round @click="save">新的一天！</el-button>
+      </div>
+      <div class="setting" v-else>
+        <el-form label-width="60px">
+          <div class="border">
+            <el-form-item label="提醒">
+              <el-switch v-model="form.on"></el-switch>
+            </el-form-item>
+          </div>
+          <div class="border" v-for="(item,index) in form.schedule">
+            <i class="icon remove-icon el-icon-close" @click="remove(index)"></i>
+            <el-form-item label="时间">
+              <el-time-select v-model="item.time" :picker-options="{
+                start: '06:00',
+                step: '00:01',
+                end: '23:00'
+              }" style="width: 100%"></el-time-select>
+            </el-form-item>
+            <el-form-item label="内容">
+              <el-input v-model="item.content"></el-input>
+            </el-form-item>
+          </div>
+          <el-button class="add-btn" size="mini" icon="el-icon-plus" round @click="add"></el-button>
+        </el-form>
+      </div>
+    </section>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>

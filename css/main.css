@@ -1,0 +1,97 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+#app {
+  width: 260px;
+}
+
+nav {
+  border-bottom: 1px solid #dfdfdf;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+nav .icon {
+  font-size: 14px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-right {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.icon {
+  transition: color .15s linear;
+}
+.icon:hover {
+  color: #5cb6ff!important;
+}
+
+.el-form-item {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.el-form-item__label {
+  font-size: 12px;
+  line-height: 20px;
+}
+.el-input__icon {
+    line-height: 20px;
+}
+.el-input__inner {
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    width: 84%;
+}
+.border {
+  /* outline: 6px dashed #80DEEA; */
+  margin: 6px;
+  padding: 10px;
+  position: relative;
+  background: #eff7ff;
+  border-radius: 4px;
+}
+.remove-icon {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  color: #DCDFE6;
+}
+.add-btn {
+  display: block;
+  margin: 10px auto;
+  width: 40%;
+}
+.percentage-box {
+  padding: 10px;
+}
+.statistics {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.statistics .el-tag {
+  height: auto;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+}
+.statistics .el-tag:first-child{
+  margin-right: 10px;
+}

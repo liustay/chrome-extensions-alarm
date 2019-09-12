@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "多喝热水",
+  "icons": {
+    "48": "img/icon.png"
+  },
+  "author": "liustay@foxmail.com",
+  "version": "1.0",
+  "description": "你今天喝水了吗？",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "alarms", "notifications", "storage"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://unpkg.com https://cdn.jsdelivr.net; object-src 'self'"
+}
