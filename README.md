@@ -1,6 +1,6 @@
 
 
-## 瞎折腾系列之-Chrome扩展程序-多喝热水 ![water](https://github.com/liustay/chrome-extensions-alarm/img/icon.png)
+## 瞎折腾系列之-Chrome扩展程序-多喝热水 ![water](https://github.com/liustay/chrome-extensions-alarm/blob/master/img/icon.png)
 
 
 
@@ -11,19 +11,19 @@
 
 不喜欢小兔子的也可以替换  
 比如：  
-![list](https://github.com/liustay/chrome-extensions-alarm/img/1.jpg)  
+![list](https://github.com/liustay/chrome-extensions-alarm/blob/master/img/1.jpg?raw=true)  
 再比如：  
-![list](https://github.com/liustay/chrome-extensions-alarm/img/2.png) 
+![list](https://github.com/liustay/chrome-extensions-alarm/blob/master/img/2.png) 
 
 
 
 
 
-![list](https://github.com/liustay/chrome-extensions-alarm/img/index.png)
+![list](https://github.com/liustay/chrome-extensions-alarm/blob/master/img/index.png)
 
-![list](https://github.com/liustay/chrome-extensions-alarm/img/setting.png)
+![list](https://github.com/liustay/chrome-extensions-alarm/blob/master/img/setting.png)
 
-![list](https://github.com/liustay/chrome-extensions-alarm/img/preview.png)
+![list](https://github.com/liustay/chrome-extensions-alarm/blob/master/img/preview.png)
 
  
  
