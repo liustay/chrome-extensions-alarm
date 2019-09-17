@@ -9,7 +9,8 @@
 
 一个定时提醒的小扩展，可以自定义内容和时间。so 除了提醒喝水，也可以提醒会议、待办事项神马的 👻
 
-不喜欢小兔子的也可以替换  
+不喜欢小兔子的也可以替换 🙃
+
 比如：  
 ![list](https://github.com/liustay/chrome-extensions-alarm/blob/master/img/1.jpg?raw=true)  
 再比如：  
@@ -17,6 +18,7 @@
 
 
 
+### `大概长这样`
 
 
 ![list](https://github.com/liustay/chrome-extensions-alarm/blob/master/img/index.png)
@@ -28,6 +30,7 @@
  
  
 ### `参考`
+
 
 https://developer.chrome.com/extensions
 
